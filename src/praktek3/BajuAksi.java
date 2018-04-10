@@ -7,6 +7,7 @@ public class BajuAksi {
        b.setWarna("Biru");
        b.setUkuran("L");
        b.setHarga(350);
+       //gak bisa b.setJenisKemeja();
        
        
        b.cetakInfo();
@@ -19,5 +20,16 @@ public class BajuAksi {
        System.out.println(b.getUkuran());
        System.out.println("Harganya \t: ");
        System.out.println(b.getHarga());
+       
+       BajuKemeja bk = new BajuKemeja();
+       bk.setMerk("Vaneda");
+       bk.setWarna("Merah");
+       bk.setUkuran("XL");
+       bk.setHarga(450);
+       bk.setJenisKemeja("Hem");
+       
+       bk.cetakInfo();
+       System.out.println("Jenis \t: "+bk.getJenisKemeja());
+       bk.throttle();
     }
 }
