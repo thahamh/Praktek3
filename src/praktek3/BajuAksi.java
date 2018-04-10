@@ -10,5 +10,14 @@ public class BajuAksi {
        
        
        b.cetakInfo();
+       
+       System.out.println("Merknya \t: ");
+       System.out.println(b.getMerk());
+       System.out.println("Warnanya \t: ");
+       System.out.println(b.getWarna());
+       System.out.println("Ukurannya \t: ");
+       System.out.println(b.getUkuran());
+       System.out.println("Harganya \t: ");
+       System.out.println(b.getHarga());
     }
 }
