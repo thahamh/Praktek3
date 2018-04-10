@@ -5,5 +5,15 @@ public class BajuKemeja extends Baju {
     void throttle(){
         System.out.println("Diiiiissskkkooon 50%");
     }
+
+    public String getJenisKemeja() {
+        return JenisKemeja;
+    }
+
+    public void setJenisKemeja(String JenisKemeja) {
+        this.JenisKemeja = JenisKemeja;
+    }
+    
+    
     
 }
