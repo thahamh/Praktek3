@@ -2,10 +2,12 @@ package praktek3;
 public class BajuAksi {
     public static void main(String[] args) {
        Baju b = new Baju();
-       b.merk="Nevada";
-       b.warna="Merah";
-       b.ukuran="L";
-       b.harga=250;
+      
+       b.setMerk("Oto Ono");
+       b.setWarna("Biru");
+       b.setUkuran("L");
+       b.setHarga(350);
+       
        
        b.cetakInfo();
     }
